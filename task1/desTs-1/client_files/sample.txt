@@ -1,0 +1,17 @@
+INFORMATION ASSURANCE AND SECURITY
+
+DES File Encryption and Decryption
+
+This is a sample text file for the DES client-server project.
+
+The client reads this file and encrypts its contents using the DES algorithm with the PyCryptodome package.
+
+The encrypted data is sent from the client to the server through a TCP connection.
+
+The server decrypts the received data and displays the plaintext.
+
+The server then encrypts the same data again and sends it back to the client.
+
+Finally, the client decrypts the received data and verifies that the original plaintext is unchanged.
+
+This demonstrates two-way communication, encryption, decryption, and secure file transfer using DES.
